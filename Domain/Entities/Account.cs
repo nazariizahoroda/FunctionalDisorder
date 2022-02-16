@@ -4,12 +4,12 @@ namespace Domain.Entities
 {
     public class Account
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public DateTime DateCreated { get; set; }
 
         public string AccountType { get; set; }
 
-        public Guid UserId { get; set; }
+        public int UserId { get; set; }
     }
 }

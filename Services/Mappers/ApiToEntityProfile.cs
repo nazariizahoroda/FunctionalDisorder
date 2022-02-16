@@ -9,8 +9,7 @@ namespace Services.Mappers
     {
         public ApiToEntityProfile()
         {
-            CreateMap<UserForCreationDto, User>()
-                .ForMember(x => x.Id, p => p.MapFrom(src => Guid.NewGuid().ToString()));
+            CreateMap<SignUpModelDto, User>();
         }
     }
 }

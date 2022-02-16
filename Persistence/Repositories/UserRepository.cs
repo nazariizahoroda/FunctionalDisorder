@@ -23,7 +23,7 @@ namespace Persistence.Repositories
             .ToListAsync();
         }
 
-        public async Task<User> GetUserByIdAsync(Guid userId)
+        public async Task<User> GetUserByIdAsync(int userId)
         {
             return await FindByCondition(user => user.Id.Equals(userId))
             .FirstOrDefaultAsync();

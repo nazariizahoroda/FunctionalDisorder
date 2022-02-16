@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31402.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalDisorder", "FunctionalDisorder\FunctionalDisorder.csproj", "{1533FBA3-BB51-45FB-B6A6-8E89D5417782}"
 EndProject
@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Abstractions", "Services.Abstractions\Services.Abstractions.csproj", "{FBAED6D9-A6FD-41AE-A648-E032A9B2B990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalDisorder.Models", "FunctionalDisorder.Models\FunctionalDisorder.Models.csproj", "{55B744B4-51E1-42E5-88ED-0DD89291D7EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalDisorder.Models", "FunctionalDisorder.Models\FunctionalDisorder.Models.csproj", "{55B744B4-51E1-42E5-88ED-0DD89291D7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalDisorder.UnitTests", "FunctionalDisorder.UnitTests\FunctionalDisorder.UnitTests.csproj", "{21D4B550-932B-4EA7-96AE-5AD294DB3D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalDisorder.IntegrationTests", "FunctionalDisorder.IntegrationTests\FunctionalDisorder.IntegrationTests.csproj", "{C92F770F-806C-42D9-A64D-C5CAB68379F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{55B744B4-51E1-42E5-88ED-0DD89291D7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55B744B4-51E1-42E5-88ED-0DD89291D7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55B744B4-51E1-42E5-88ED-0DD89291D7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D4B550-932B-4EA7-96AE-5AD294DB3D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D4B550-932B-4EA7-96AE-5AD294DB3D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D4B550-932B-4EA7-96AE-5AD294DB3D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D4B550-932B-4EA7-96AE-5AD294DB3D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92F770F-806C-42D9-A64D-C5CAB68379F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92F770F-806C-42D9-A64D-C5CAB68379F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92F770F-806C-42D9-A64D-C5CAB68379F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92F770F-806C-42D9-A64D-C5CAB68379F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
